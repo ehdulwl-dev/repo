@@ -108,9 +108,9 @@ if file is not None:
         plt.ylabel(clustering_features[1])
 
         # 레전드 설정
-        legend = plt.legend(title='Cluster')
-        plt.setp(legend.get_texts())  # 레전드 텍스트 색상 설정
-        plt.setp(legend.get_title())  # 레전드 타이틀 색상 설정
+        #legend = plt.legend(title='Cluster')
+        #plt.setp(legend.get_texts())  # 레전드 텍스트 색상 설정
+        #plt.setp(legend.get_title())  # 레전드 타이틀 색상 설정
         plt.close(fig)  # Streamlit에서 사용하기 위해 figure를 닫습니다.
 
         # Streamlit에 그래프 표시
