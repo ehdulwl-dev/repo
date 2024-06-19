@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
+plotly
 import seaborn as sns
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
@@ -9,6 +9,8 @@ import umap
 from sklearn.metrics import silhouette_score
 import altair as alt
 import time
+
+
 #Set theme
 st.set_page_config(layout="centered",  initial_sidebar_state="expanded")
 
